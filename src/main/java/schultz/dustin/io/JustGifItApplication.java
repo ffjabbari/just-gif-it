@@ -27,8 +27,22 @@ public class JustGifItApplication {
         if (!gifFolder.exists()) {
             gifFolder.mkdir();
         }
+        for (int i=1; i<1000; i++) {
+            String aaa = ma(1);
+            String bbb = aaa + "6";
+            int ix = 1;
+            if (ix != 1){
+                i = 2000;
+            }
+        }
+        System.out.println ("hiaaa");
     }
-
+private String ma(int a){
+        a = 11;
+        a = 22;
+        a = 33;
+        return "44";
+}
     @Bean
     public WebMvcConfigurer webMvcConfigurer() {
         return new WebMvcConfigurerAdapter() {
